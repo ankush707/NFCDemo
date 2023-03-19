@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDFC9A95568AEBE9CAC5978D83499E8 /* NFCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B6286D6C8F44F4DE7D1926ACCA20C230 /* NFCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F34622EC2D176C017D5FE7BC889E05 /* Pods-nfcTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC9052BB8C5E6CA0A1CB9CBEA60C4 /* Pods-nfcTesting-dummy.m */; };
+		25E4DE68793085CD19D35F293417A9E0 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABBBB0978866BD053561C7EC32B7CE /* CoreNFC.framework */; };
+		2EF3645AB976418CD1712DF67CD5277F /* NFCReaderWriter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8BD027DE1E8257C2F1541ECEECE5F7 /* NFCReaderWriter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E20461CCE85DDC707A3045C81BE04E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */; };
+		4807B398D6AE5D25AD91436213D456DA /* NFCNDEFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDF67303BC55837EA39E6DEB75D341 /* NFCNDEFReader.m */; };
+		502F0FE6373238E36090AD29AE6B22F4 /* NFCReaderWriter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6BBBDF52BB9692BB6F83208F09C00 /* NFCReaderWriter-dummy.m */; };
+		588ED67FF93FB4B266AB0130B788E056 /* NFCReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC060B172A77A9835D5F2C174EC2C29 /* NFCReader.m */; };
+		67307FFB7CDE8B63B9A9B6B58E8366EC /* NFCReaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1452DCC9AF071FC702705E07B6BFF /* NFCReaderWriter.m */; };
+		83E8FDAD76045FD6359C9ACE35D9EC3A /* NFCReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 579C7683E9FFA17EFA9C5097AA682651 /* NFCReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E8B7E8D02D01671B5F74A7576005B6 /* Pods-nfcTestingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 220098076C1F8791346CA6C88D6C8DD6 /* Pods-nfcTestingTests-dummy.m */; };
+		91561755B3A3A3ACCB11A0B6BEC5EA94 /* Pods-nfcTestingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE096EB6F6933D4EECD9B689BE1EE9D /* Pods-nfcTestingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D32DDC6ED8FCDB98522CE7FF724B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */; };
+		94DE606C82ADE72099159F9EAC6FF194 /* Pods-nfcTesting-nfcTestingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 766502A38676F4BA2AD7CAD65D85EBC1 /* Pods-nfcTesting-nfcTestingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A89602D49A4C58AB7AA6C155502298 /* NFCReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C216AF1A317187810A571C11800F15D /* NFCReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB18F4A26159C504F6865C63950A5B29 /* NFCNDEFWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 128A0D4E9AB529B99D95888AE2543FE3 /* NFCNDEFWriter.m */; };
+		AF976E2BCAC5ADE4E5C40E259D8F289F /* NFCNDEFReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D324F93916F11C5A3906A9A174F6CD62 /* NFCNDEFReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B538968595CC4296066F3516A6D6031F /* Pods-nfcTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1851B91E3B868486B39394D9BCC80A19 /* Pods-nfcTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B53CBFFB73A70CFE938B3C4ADD268D /* NFCNDEFWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44059D69BC11412AF97BF8B879ACE1EC /* NFCNDEFWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B9427D3C46063D747F59BF5270920C /* Pods-nfcTesting-nfcTestingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC3125BF1592DAEF226BD79C851DBC /* Pods-nfcTesting-nfcTestingUITests-dummy.m */; };
+		B7571574D70F4CEECAA764389BFC0C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */; };
+		BEE41EC21E87E4B5DA0E47084BBCAFDA /* NFCTagReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BA63F78AB71219721C503FB1DEA90 /* NFCTagReader.m */; };
+		CAA8FC3769C665767C4C18637E93931E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */; };
+		D598551C5FA261E45ACE9918E91EFB25 /* NFCReaderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2B51FF5392CAB41714123621314F80 /* NFCReaderWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBBCDB28210322978F67DC1C78ACE04 /* NFCTagReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8936D6C917DCE5779173DB27DF445D61 /* NFCTagReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50228F0F4288FCB6E965990A39B81E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3153D1329350B702E037E34741271C1C;
+			remoteInfo = NFCReaderWriter;
+		};
+		825BC4757ABE8D4BA741E18EF8AB0CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3153D1329350B702E037E34741271C1C;
+			remoteInfo = NFCReaderWriter;
+		};
+		B3E62D1E0ED1C549E07CE1B707A6F505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4AE3FA1899E675B0CF7AD321595F13;
+			remoteInfo = "Pods-nfcTesting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040B6ED11D130E00F87298BABBEF3286 /* Pods-nfcTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-nfcTesting.modulemap"; sourceTree = "<group>"; };
+		0EFDF67303BC55837EA39E6DEB75D341 /* NFCNDEFReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCNDEFReader.m; path = Sources/NFCReaderWriter/NFCNDEFReader.m; sourceTree = "<group>"; };
+		128A0D4E9AB529B99D95888AE2543FE3 /* NFCNDEFWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCNDEFWriter.m; path = Sources/NFCReaderWriter/NFCNDEFWriter.m; sourceTree = "<group>"; };
+		1851B91E3B868486B39394D9BCC80A19 /* Pods-nfcTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nfcTesting-umbrella.h"; sourceTree = "<group>"; };
+		220098076C1F8791346CA6C88D6C8DD6 /* Pods-nfcTestingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nfcTestingTests-dummy.m"; sourceTree = "<group>"; };
+		2FDFB645F88B6A9E7FD7C53220303339 /* Pods-nfcTestingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTestingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32472A5AF98D62BAEE4FB85FC4D603CF /* Pods-nfcTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nfcTesting-frameworks.sh"; sourceTree = "<group>"; };
+		33A1452DCC9AF071FC702705E07B6BFF /* NFCReaderWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCReaderWriter.m; path = Sources/NFCReaderWriter/NFCReaderWriter.m; sourceTree = "<group>"; };
+		34713E74EBC2D833324ED8B8CCCA9927 /* Pods-nfcTesting-nfcTestingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTesting-nfcTestingUITests-Info.plist"; sourceTree = "<group>"; };
+		39C0BC5FD9239A3017F27A8B149F0435 /* Pods-nfcTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2BA63F78AB71219721C503FB1DEA90 /* NFCTagReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCTagReader.m; path = Sources/NFCReaderWriter/NFCTagReader.m; sourceTree = "<group>"; };
+		44059D69BC11412AF97BF8B879ACE1EC /* NFCNDEFWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCNDEFWriter.h; path = Sources/NFCReaderWriter/NFCNDEFWriter.h; sourceTree = "<group>"; };
+		47D90F7DF6B6AAD896F5DAA059E532EE /* Pods-nfcTestingTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-nfcTestingTests"; path = Pods_nfcTestingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFCReaderWriter; path = NFCReaderWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C7683E9FFA17EFA9C5097AA682651 /* NFCReaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReaderDelegate.h; path = Sources/NFCReaderWriter/NFCReaderDelegate.h; sourceTree = "<group>"; };
+		5989646F62D47893E34CBE7F92194C6D /* NFCReaderWriter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReaderWriter.release.xcconfig; sourceTree = "<group>"; };
+		5A9082465E37E4059CE894A3B36A147B /* Pods-nfcTesting-nfcTestingUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-nfcTesting-nfcTestingUITests"; path = Pods_nfcTesting_nfcTestingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB7FD3E6BD3625F43CCC0019D0F74E8 /* Pods-nfcTesting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-nfcTesting"; path = Pods_nfcTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF6BBBDF52BB9692BB6F83208F09C00 /* NFCReaderWriter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFCReaderWriter-dummy.m"; sourceTree = "<group>"; };
+		72C6D9223923BCF333D503CBA575225C /* Pods-nfcTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		766502A38676F4BA2AD7CAD65D85EBC1 /* Pods-nfcTesting-nfcTestingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nfcTesting-nfcTestingUITests-umbrella.h"; sourceTree = "<group>"; };
+		76EC4C9DF5E72E8F48A9F6EBAF3DC49D /* Pods-nfcTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTesting-Info.plist"; sourceTree = "<group>"; };
+		7C32E68968887C8B48F207EA3BA5BC93 /* Pods-nfcTesting-nfcTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTesting-nfcTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		840248BF65071CF80C6AD5108C351685 /* NFCReaderWriter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReaderWriter.debug.xcconfig; sourceTree = "<group>"; };
+		865CC9052BB8C5E6CA0A1CB9CBEA60C4 /* Pods-nfcTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nfcTesting-dummy.m"; sourceTree = "<group>"; };
+		8936D6C917DCE5779173DB27DF445D61 /* NFCTagReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCTagReader.h; path = Sources/NFCReaderWriter/NFCTagReader.h; sourceTree = "<group>"; };
+		8946EEE8939F2D855E4B0FBEDDC48755 /* Pods-nfcTesting-nfcTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTesting-nfcTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89DC3125BF1592DAEF226BD79C851DBC /* Pods-nfcTesting-nfcTestingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nfcTesting-nfcTestingUITests-dummy.m"; sourceTree = "<group>"; };
+		8FC060B172A77A9835D5F2C174EC2C29 /* NFCReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCReader.m; path = Sources/NFCReaderWriter/NFCReader.m; sourceTree = "<group>"; };
+		9996C0E27AFF98EBCC52A7140CF27426 /* NFCReaderWriter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCReaderWriter.modulemap; sourceTree = "<group>"; };
+		9C13BF1743F0AEBF4330B99FF4F21094 /* Pods-nfcTesting-nfcTestingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTesting-nfcTestingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C216AF1A317187810A571C11800F15D /* NFCReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReader.h; path = Sources/NFCReaderWriter/NFCReader.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE096EB6F6933D4EECD9B689BE1EE9D /* Pods-nfcTestingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nfcTestingTests-umbrella.h"; sourceTree = "<group>"; };
+		9EEFC4DACB66812BECBA2C8EDB67D121 /* Pods-nfcTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTesting.release.xcconfig"; sourceTree = "<group>"; };
+		A47C893F67ABCCC88F98A7D320FF78BD /* Pods-nfcTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nfcTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC4B35445FE3BEC22471282F326B127C /* NFCReaderWriter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCReaderWriter-Info.plist"; sourceTree = "<group>"; };
+		AE2B51FF5392CAB41714123621314F80 /* NFCReaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReaderWriter.h; path = Sources/NFCReaderWriter/NFCReaderWriter.h; sourceTree = "<group>"; };
+		B6286D6C8F44F4DE7D1926ACCA20C230 /* NFCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCConstants.h; path = Sources/NFCReaderWriter/NFCConstants.h; sourceTree = "<group>"; };
+		B83C7AA9055A7DC08D16C103456C87A9 /* Pods-nfcTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB8BD027DE1E8257C2F1541ECEECE5F7 /* NFCReaderWriter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReaderWriter-umbrella.h"; sourceTree = "<group>"; };
+		C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C41E7EEDB5866375F388980640DDC6DF /* Pods-nfcTestingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nfcTestingTests-Info.plist"; sourceTree = "<group>"; };
+		C6298410D8990B009570D59F14BA3135 /* Pods-nfcTestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nfcTestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA45691057E1701CDAC2109126705E06 /* Pods-nfcTestingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-nfcTestingTests.modulemap"; sourceTree = "<group>"; };
+		CC873EC5251D91ACA565DA811FB5E25E /* Pods-nfcTestingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nfcTestingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD516F8AE00CE34FE66D6894B07E3986 /* NFCReaderWriter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReaderWriter-prefix.pch"; sourceTree = "<group>"; };
+		D00022DF2520C007E4B2D01733327ED5 /* Pods-nfcTesting-nfcTestingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nfcTesting-nfcTestingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D324F93916F11C5A3906A9A174F6CD62 /* NFCNDEFReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCNDEFReader.h; path = Sources/NFCReaderWriter/NFCNDEFReader.h; sourceTree = "<group>"; };
+		D507AEF93B6E27BF300791E9135A7220 /* Pods-nfcTesting-nfcTestingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-nfcTesting-nfcTestingUITests.modulemap"; sourceTree = "<group>"; };
+		EDDCD8237EAAD7BDCB2FFC1681241071 /* Pods-nfcTesting-nfcTestingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nfcTesting-nfcTestingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDABBBB0978866BD053561C7EC32B7CE /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreNFC.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77AB47EC8244FE45CF9E56936DD76931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7571574D70F4CEECAA764389BFC0C98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B030A2F14616C6AFE7184C0CCBB8EBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4DE68793085CD19D35F293417A9E0 /* CoreNFC.framework in Frameworks */,
+				CAA8FC3769C665767C4C18637E93931E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA62B113B0D893F96293AC0E1F4616DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D32DDC6ED8FCDB98522CE7FF724B12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4ADD5A788314D29435A30F5AE1C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E20461CCE85DDC707A3045C81BE04E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0013F87CB04C514FD8C31FC109D6FA2B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				329251F74D90C06B7F7B70A254FD9147 /* Pods-nfcTesting */,
+				C5E036DB911F75409130620D9ACF4956 /* Pods-nfcTesting-nfcTestingUITests */,
+				F4F751A2C6744EB31FC6F9CBBE2D1066 /* Pods-nfcTestingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAD3D1ADCD853A200A93AEF11B1BF2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329251F74D90C06B7F7B70A254FD9147 /* Pods-nfcTesting */ = {
+			isa = PBXGroup;
+			children = (
+				040B6ED11D130E00F87298BABBEF3286 /* Pods-nfcTesting.modulemap */,
+				A47C893F67ABCCC88F98A7D320FF78BD /* Pods-nfcTesting-acknowledgements.markdown */,
+				72C6D9223923BCF333D503CBA575225C /* Pods-nfcTesting-acknowledgements.plist */,
+				865CC9052BB8C5E6CA0A1CB9CBEA60C4 /* Pods-nfcTesting-dummy.m */,
+				32472A5AF98D62BAEE4FB85FC4D603CF /* Pods-nfcTesting-frameworks.sh */,
+				76EC4C9DF5E72E8F48A9F6EBAF3DC49D /* Pods-nfcTesting-Info.plist */,
+				1851B91E3B868486B39394D9BCC80A19 /* Pods-nfcTesting-umbrella.h */,
+				39C0BC5FD9239A3017F27A8B149F0435 /* Pods-nfcTesting.debug.xcconfig */,
+				9EEFC4DACB66812BECBA2C8EDB67D121 /* Pods-nfcTesting.release.xcconfig */,
+			);
+			name = "Pods-nfcTesting";
+			path = "Target Support Files/Pods-nfcTesting";
+			sourceTree = "<group>";
+		};
+		9D6B41F903C0CAD02120AFC698B2DB10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA471F8E9962552FF4FE5E0DED1FD18C /* NFCReaderWriter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A838753741911FAC946767AD620185F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9996C0E27AFF98EBCC52A7140CF27426 /* NFCReaderWriter.modulemap */,
+				5CF6BBBDF52BB9692BB6F83208F09C00 /* NFCReaderWriter-dummy.m */,
+				AC4B35445FE3BEC22471282F326B127C /* NFCReaderWriter-Info.plist */,
+				CD516F8AE00CE34FE66D6894B07E3986 /* NFCReaderWriter-prefix.pch */,
+				BB8BD027DE1E8257C2F1541ECEECE5F7 /* NFCReaderWriter-umbrella.h */,
+				840248BF65071CF80C6AD5108C351685 /* NFCReaderWriter.debug.xcconfig */,
+				5989646F62D47893E34CBE7F92194C6D /* NFCReaderWriter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NFCReaderWriter";
+			sourceTree = "<group>";
+		};
+		A95B8EFBA838034CB9A6D3547A941137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */,
+				5CB7FD3E6BD3625F43CCC0019D0F74E8 /* Pods-nfcTesting */,
+				5A9082465E37E4059CE894A3B36A147B /* Pods-nfcTesting-nfcTestingUITests */,
+				47D90F7DF6B6AAD896F5DAA059E532EE /* Pods-nfcTestingTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E036DB911F75409130620D9ACF4956 /* Pods-nfcTesting-nfcTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D507AEF93B6E27BF300791E9135A7220 /* Pods-nfcTesting-nfcTestingUITests.modulemap */,
+				EDDCD8237EAAD7BDCB2FFC1681241071 /* Pods-nfcTesting-nfcTestingUITests-acknowledgements.markdown */,
+				9C13BF1743F0AEBF4330B99FF4F21094 /* Pods-nfcTesting-nfcTestingUITests-acknowledgements.plist */,
+				89DC3125BF1592DAEF226BD79C851DBC /* Pods-nfcTesting-nfcTestingUITests-dummy.m */,
+				D00022DF2520C007E4B2D01733327ED5 /* Pods-nfcTesting-nfcTestingUITests-frameworks.sh */,
+				34713E74EBC2D833324ED8B8CCCA9927 /* Pods-nfcTesting-nfcTestingUITests-Info.plist */,
+				766502A38676F4BA2AD7CAD65D85EBC1 /* Pods-nfcTesting-nfcTestingUITests-umbrella.h */,
+				7C32E68968887C8B48F207EA3BA5BC93 /* Pods-nfcTesting-nfcTestingUITests.debug.xcconfig */,
+				8946EEE8939F2D855E4B0FBEDDC48755 /* Pods-nfcTesting-nfcTestingUITests.release.xcconfig */,
+			);
+			name = "Pods-nfcTesting-nfcTestingUITests";
+			path = "Target Support Files/Pods-nfcTesting-nfcTestingUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9D6B41F903C0CAD02120AFC698B2DB10 /* Pods */,
+				A95B8EFBA838034CB9A6D3547A941137 /* Products */,
+				0013F87CB04C514FD8C31FC109D6FA2B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDAD3D1ADCD853A200A93AEF11B1BF2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDABBBB0978866BD053561C7EC32B7CE /* CoreNFC.framework */,
+				C1005253174DB399D190C2B79EEEE104 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4F751A2C6744EB31FC6F9CBBE2D1066 /* Pods-nfcTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA45691057E1701CDAC2109126705E06 /* Pods-nfcTestingTests.modulemap */,
+				CC873EC5251D91ACA565DA811FB5E25E /* Pods-nfcTestingTests-acknowledgements.markdown */,
+				2FDFB645F88B6A9E7FD7C53220303339 /* Pods-nfcTestingTests-acknowledgements.plist */,
+				220098076C1F8791346CA6C88D6C8DD6 /* Pods-nfcTestingTests-dummy.m */,
+				C41E7EEDB5866375F388980640DDC6DF /* Pods-nfcTestingTests-Info.plist */,
+				9DE096EB6F6933D4EECD9B689BE1EE9D /* Pods-nfcTestingTests-umbrella.h */,
+				B83C7AA9055A7DC08D16C103456C87A9 /* Pods-nfcTestingTests.debug.xcconfig */,
+				C6298410D8990B009570D59F14BA3135 /* Pods-nfcTestingTests.release.xcconfig */,
+			);
+			name = "Pods-nfcTestingTests";
+			path = "Target Support Files/Pods-nfcTestingTests";
+			sourceTree = "<group>";
+		};
+		FA471F8E9962552FF4FE5E0DED1FD18C /* NFCReaderWriter */ = {
+			isa = PBXGroup;
+			children = (
+				B6286D6C8F44F4DE7D1926ACCA20C230 /* NFCConstants.h */,
+				D324F93916F11C5A3906A9A174F6CD62 /* NFCNDEFReader.h */,
+				0EFDF67303BC55837EA39E6DEB75D341 /* NFCNDEFReader.m */,
+				44059D69BC11412AF97BF8B879ACE1EC /* NFCNDEFWriter.h */,
+				128A0D4E9AB529B99D95888AE2543FE3 /* NFCNDEFWriter.m */,
+				9C216AF1A317187810A571C11800F15D /* NFCReader.h */,
+				8FC060B172A77A9835D5F2C174EC2C29 /* NFCReader.m */,
+				579C7683E9FFA17EFA9C5097AA682651 /* NFCReaderDelegate.h */,
+				AE2B51FF5392CAB41714123621314F80 /* NFCReaderWriter.h */,
+				33A1452DCC9AF071FC702705E07B6BFF /* NFCReaderWriter.m */,
+				8936D6C917DCE5779173DB27DF445D61 /* NFCTagReader.h */,
+				3E2BA63F78AB71219721C503FB1DEA90 /* NFCTagReader.m */,
+				A838753741911FAC946767AD620185F8 /* Support Files */,
+			);
+			name = NFCReaderWriter;
+			path = NFCReaderWriter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CA22B0C20F91449DF05A2A943131264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91561755B3A3A3ACCB11A0B6BEC5EA94 /* Pods-nfcTestingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66684C87C05B695D74826ED94917436C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDFC9A95568AEBE9CAC5978D83499E8 /* NFCConstants.h in Headers */,
+				AF976E2BCAC5ADE4E5C40E259D8F289F /* NFCNDEFReader.h in Headers */,
+				B5B53CBFFB73A70CFE938B3C4ADD268D /* NFCNDEFWriter.h in Headers */,
+				A5A89602D49A4C58AB7AA6C155502298 /* NFCReader.h in Headers */,
+				83E8FDAD76045FD6359C9ACE35D9EC3A /* NFCReaderDelegate.h in Headers */,
+				D598551C5FA261E45ACE9918E91EFB25 /* NFCReaderWriter.h in Headers */,
+				2EF3645AB976418CD1712DF67CD5277F /* NFCReaderWriter-umbrella.h in Headers */,
+				DDBBCDB28210322978F67DC1C78ACE04 /* NFCTagReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684C6EF27D42FAFC4527982B145694FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE606C82ADE72099159F9EAC6FF194 /* Pods-nfcTesting-nfcTestingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDC94EB7FFCCF55B3D507FA2EA4E50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B538968595CC4296066F3516A6D6031F /* Pods-nfcTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3153D1329350B702E037E34741271C1C /* NFCReaderWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78841AD963370D9EF84F6DEED578F33 /* Build configuration list for PBXNativeTarget "NFCReaderWriter" */;
+			buildPhases = (
+				66684C87C05B695D74826ED94917436C /* Headers */,
+				C8F1CEA413BBAA5981B31987C1DDCF13 /* Sources */,
+				B030A2F14616C6AFE7184C0CCBB8EBC2 /* Frameworks */,
+				91120F9E7FD73C9BAED322EEC67FB63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCReaderWriter;
+			productName = NFCReaderWriter;
+			productReference = 5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */;
+			productType = "com.apple.product-type.framework";
+		};
+		51CD8E1142C8BAFA2587FE52841A188A /* Pods-nfcTesting-nfcTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03CA0E2C80ECFA00A6AA0A6F0EC9FD5 /* Build configuration list for PBXNativeTarget "Pods-nfcTesting-nfcTestingUITests" */;
+			buildPhases = (
+				684C6EF27D42FAFC4527982B145694FF /* Headers */,
+				914C1B2E9F838A0BC05DD9E1373AFFE7 /* Sources */,
+				77AB47EC8244FE45CF9E56936DD76931 /* Frameworks */,
+				94B6BD60D3F904916DE8BA370CA23EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7B7E3A8C2FEBDAEC441A1B607CD11C /* PBXTargetDependency */,
+			);
+			name = "Pods-nfcTesting-nfcTestingUITests";
+			productName = Pods_nfcTesting_nfcTestingUITests;
+			productReference = 5A9082465E37E4059CE894A3B36A147B /* Pods-nfcTesting-nfcTestingUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D4AE3FA1899E675B0CF7AD321595F13 /* Pods-nfcTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B020932C0D0D0BE36DB040968786003 /* Build configuration list for PBXNativeTarget "Pods-nfcTesting" */;
+			buildPhases = (
+				8CDC94EB7FFCCF55B3D507FA2EA4E50E /* Headers */,
+				E682B6A0108144A4DDE2E89437EEF3ED /* Sources */,
+				DA62B113B0D893F96293AC0E1F4616DD /* Frameworks */,
+				FE4C7FCABB61ED3B430ECCA163345E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189D340C942BD01F26A36B95F03AF01E /* PBXTargetDependency */,
+			);
+			name = "Pods-nfcTesting";
+			productName = Pods_nfcTesting;
+			productReference = 5CB7FD3E6BD3625F43CCC0019D0F74E8 /* Pods-nfcTesting */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD451838002BB8ECD51D507C8AECCEFD /* Pods-nfcTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACD5B386662F21117E81CBDBB859AFD /* Build configuration list for PBXNativeTarget "Pods-nfcTestingTests" */;
+			buildPhases = (
+				5CA22B0C20F91449DF05A2A943131264 /* Headers */,
+				42BEC3C14A419987792767A9ACE2429C /* Sources */,
+				EBD4ADD5A788314D29435A30F5AE1C19 /* Frameworks */,
+				90F9B859DA76ADCE6CA6A4FCACA3D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6193602015264E38B7D5B0ABE55CFF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-nfcTestingTests";
+			productName = Pods_nfcTestingTests;
+			productReference = 47D90F7DF6B6AAD896F5DAA059E532EE /* Pods-nfcTestingTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A95B8EFBA838034CB9A6D3547A941137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3153D1329350B702E037E34741271C1C /* NFCReaderWriter */,
+				8D4AE3FA1899E675B0CF7AD321595F13 /* Pods-nfcTesting */,
+				51CD8E1142C8BAFA2587FE52841A188A /* Pods-nfcTesting-nfcTestingUITests */,
+				DD451838002BB8ECD51D507C8AECCEFD /* Pods-nfcTestingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F9B859DA76ADCE6CA6A4FCACA3D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91120F9E7FD73C9BAED322EEC67FB63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6BD60D3F904916DE8BA370CA23EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4C7FCABB61ED3B430ECCA163345E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BEC3C14A419987792767A9ACE2429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E8B7E8D02D01671B5F74A7576005B6 /* Pods-nfcTestingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914C1B2E9F838A0BC05DD9E1373AFFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B9427D3C46063D747F59BF5270920C /* Pods-nfcTesting-nfcTestingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F1CEA413BBAA5981B31987C1DDCF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807B398D6AE5D25AD91436213D456DA /* NFCNDEFReader.m in Sources */,
+				AB18F4A26159C504F6865C63950A5B29 /* NFCNDEFWriter.m in Sources */,
+				588ED67FF93FB4B266AB0130B788E056 /* NFCReader.m in Sources */,
+				67307FFB7CDE8B63B9A9B6B58E8366EC /* NFCReaderWriter.m in Sources */,
+				502F0FE6373238E36090AD29AE6B22F4 /* NFCReaderWriter-dummy.m in Sources */,
+				BEE41EC21E87E4B5DA0E47084BBCAFDA /* NFCTagReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E682B6A0108144A4DDE2E89437EEF3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F34622EC2D176C017D5FE7BC889E05 /* Pods-nfcTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189D340C942BD01F26A36B95F03AF01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCReaderWriter;
+			target = 3153D1329350B702E037E34741271C1C /* NFCReaderWriter */;
+			targetProxy = 50228F0F4288FCB6E965990A39B81E32 /* PBXContainerItemProxy */;
+		};
+		7D7B7E3A8C2FEBDAEC441A1B607CD11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCReaderWriter;
+			target = 3153D1329350B702E037E34741271C1C /* NFCReaderWriter */;
+			targetProxy = 825BC4757ABE8D4BA741E18EF8AB0CE6 /* PBXContainerItemProxy */;
+		};
+		F6193602015264E38B7D5B0ABE55CFF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-nfcTesting";
+			target = 8D4AE3FA1899E675B0CF7AD321595F13 /* Pods-nfcTesting */;
+			targetProxy = B3E62D1E0ED1C549E07CE1B707A6F505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03DD6CE96479ABC9ABB3E8E1081E277D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6298410D8990B009570D59F14BA3135 /* Pods-nfcTestingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTestingTests/Pods-nfcTestingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTestingTests/Pods-nfcTestingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2409D1BEA54CA1411A2D50663AA7ACF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEFC4DACB66812BECBA2C8EDB67D121 /* Pods-nfcTesting.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTesting/Pods-nfcTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTesting/Pods-nfcTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3DD9F462B41D6663DA8E17413798FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32E68968887C8B48F207EA3BA5BC93 /* Pods-nfcTesting-nfcTestingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTesting-nfcTestingUITests/Pods-nfcTesting-nfcTestingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTesting-nfcTestingUITests/Pods-nfcTesting-nfcTestingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43BB65ADB789E8559F44B4D6B15FEBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83C7AA9055A7DC08D16C103456C87A9 /* Pods-nfcTestingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTestingTests/Pods-nfcTestingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTestingTests/Pods-nfcTestingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F71B01132E907D47005AD4043071866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5989646F62D47893E34CBE7F92194C6D /* NFCReaderWriter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReaderWriter/NFCReaderWriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter.modulemap";
+				PRODUCT_MODULE_NAME = NFCReaderWriter;
+				PRODUCT_NAME = NFCReaderWriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77949F36C2BD248A88AFA9BC3B164FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C0BC5FD9239A3017F27A8B149F0435 /* Pods-nfcTesting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTesting/Pods-nfcTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTesting/Pods-nfcTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4BAFB5DA5D536CF5510DA285F9F45D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840248BF65071CF80C6AD5108C351685 /* NFCReaderWriter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReaderWriter/NFCReaderWriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter.modulemap";
+				PRODUCT_MODULE_NAME = NFCReaderWriter;
+				PRODUCT_NAME = NFCReaderWriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D12E8E92A0477A11F1643FB508914A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8946EEE8939F2D855E4B0FBEDDC48755 /* Pods-nfcTesting-nfcTestingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nfcTesting-nfcTestingUITests/Pods-nfcTesting-nfcTestingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nfcTesting-nfcTestingUITests/Pods-nfcTesting-nfcTestingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B020932C0D0D0BE36DB040968786003 /* Build configuration list for PBXNativeTarget "Pods-nfcTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77949F36C2BD248A88AFA9BC3B164FD9 /* Debug */,
+				2409D1BEA54CA1411A2D50663AA7ACF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03CA0E2C80ECFA00A6AA0A6F0EC9FD5 /* Build configuration list for PBXNativeTarget "Pods-nfcTesting-nfcTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9F462B41D6663DA8E17413798FCD5 /* Debug */,
+				D12E8E92A0477A11F1643FB508914A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78841AD963370D9EF84F6DEED578F33 /* Build configuration list for PBXNativeTarget "NFCReaderWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BAFB5DA5D536CF5510DA285F9F45D9 /* Debug */,
+				5F71B01132E907D47005AD4043071866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACD5B386662F21117E81CBDBB859AFD /* Build configuration list for PBXNativeTarget "Pods-nfcTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BB65ADB789E8559F44B4D6B15FEBD8 /* Debug */,
+				03DD6CE96479ABC9ABB3E8E1081E277D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

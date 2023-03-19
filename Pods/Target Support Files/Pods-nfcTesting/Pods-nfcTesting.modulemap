@@ -1,0 +1,6 @@
+framework module Pods_nfcTesting {
+  umbrella header "Pods-nfcTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

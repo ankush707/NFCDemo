@@ -1,0 +1,16 @@
+PODS:
+  - NFCReaderWriter (1.1.4)
+
+DEPENDENCIES:
+  - NFCReaderWriter
+
+SPEC REPOS:
+  trunk:
+    - NFCReaderWriter
+
+SPEC CHECKSUMS:
+  NFCReaderWriter: b21965d1b3b8c53f7648f58f597b77a13f6ecdc5
+
+PODFILE CHECKSUM: f0a9b6ac4001a99bd6766343331940450ed666ff
+
+COCOAPODS: 1.11.3
